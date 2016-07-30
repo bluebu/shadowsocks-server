@@ -5,7 +5,7 @@
 ## Image:
 
 ~~~
-docker pull bluebu/shadowsocks-privoxy
+docker pull bluebu/shadowsocks-server
 ~~~
 
 
