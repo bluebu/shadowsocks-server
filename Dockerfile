@@ -14,9 +14,9 @@ RUN pip install shadowsocks
 ENV SERVER_ADDR=0.0.0.0 \
     SERVER_PORT=8899  \
     METHOD=aes-256-cfb \
-    PASSWORD= \
     TIMEOUT=300 \
-    WORKERS=10
+    WORKERS=10 \
+    PASSWORD=
 
 #------------------------------------------------------------------------------
 # Populate root file system:

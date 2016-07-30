@@ -9,4 +9,5 @@ env ssserver -s "$SERVER_ADDR"              \
              -m "$METHOD"                   \
              -t "$TIMEOUT"                  \
              --workers "$WORKERS"           \
-             --fast-open
+             --fast-open                    \
+             -qq
